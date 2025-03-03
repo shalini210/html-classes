@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <style>
         nav
         {
             display: flex;
+            position: fixed;
+            width: 100%;
         }
         ul
         {
@@ -16,7 +20,6 @@
             display: flex;
             list-style: none;
             justify-content: end;
-            
             align-items: center;
             height:100px;
             width:100%;
@@ -67,6 +70,22 @@ font-size: 60px;
 font-weight: bold;
 color:blue;
         }
+        .heading_box
+        {
+            
+    height: 200px;
+    width: 30%;
+    margin-left: 30%;
+    background-color: #082f36;
+    color: white;
+    text-align: center;
+    /* align-items: center; */
+    align-content: center;
+    position: absolute;
+    top:335px;
+    font-family: cursive;
+    font-size: 30px;
+        }
     </style>
 </head>
 <body>
@@ -74,18 +93,21 @@ color:blue;
     <nav>
         <img src="images/logo.jpg" alt="">
         <ul>
-            <li><a href="">Home</a></li>
+            <li><a href=""><i class="fa-solid fa-house" style="color:black"></i>Home</a></li>
             <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href=""><i class="fa-regular fa-envelope" style="margin-right:5px;"></i>Contact</a></li>
             <li><a href="">Tournament</a></li>
             <li><a href="">News</a></li>
 
         </ul>
     </nav>
     <div id="header">
-        <div>
-Welcome To <br>ICC Champioins Trophy <br>2025
-    </div>
+        
 </div>
+
+<div class="heading_box">
+    Welcome To <br>ICC Champioins Trophy <br>
+  <span style="font-size: 25px;">  2025</span>
+        </div>
 </body>
 </html>
